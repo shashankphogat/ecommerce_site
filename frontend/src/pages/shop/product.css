@@ -1,0 +1,46 @@
+.shopTitle{
+    text-align:center;
+    margin-top:3%;
+    font-weight:bold;
+}
+
+.shopTitleElement{
+    font-size:40px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content:center;
+    margin-top:3%;
+    place-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.product{
+    display:flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.product .image{
+    height: auto;
+    width: 300px;
+}
+
+.product .description{
+    text-align: center;
+}
+
+.btn{
+    color: black;
+    background-color: white;
+    border-radius: 13px;
+    width: 130px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+}
