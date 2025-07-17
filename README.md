@@ -6,7 +6,7 @@
 ```markdown
 # E-Commerce Website
 
-A full-stack e-commerce application built using React and Express.js. Supports cart management, real-time product search, and secure checkout.
+A full-stack e-commerce application built using React and Express.js. Supports cart management, real-time product search, and payment gateway.
 
 ## 🚀 Features
 - Cart functionality with React Context API
