@@ -12,9 +12,6 @@ export const Shop = () => {
   },[]);
   return (
     <div>
-        <div className="shopTitle">
-        <h1 className='shopTitleElement'>Online Oasis</h1>
-        </div>
         <div className="products">
             {filteredProducts.map((product)=>{
            return <Product data={product}/>

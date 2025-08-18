@@ -3,49 +3,49 @@ import image2 from "./assets/products/2.png"
 import image3 from "./assets/products/3.png"
 import image4 from "./assets/products/4.png"
 import image5 from "./assets/products/5.png"
-import image6 from "./assets/products/6.webp"
+import image6 from "./assets/products/6.png"
 
 export const Products = [
     {
         id:1,
-        name: "Phone",
-        price:80000,
+        name: "Headphone",
+        price:1799,
         image:image1,
-        description: {name:"phone",company:"apple",color:"white",model:"pro max"}
+        description: {name:"headphone",company:"goboult",color:"white",model:"Q"}
     },
     {
         id:2,
-        name: "Laptop",
-        price:125000,
+        name: "Mouse",
+        price:589,
         image:image2,
-        description: {name:"laptop",company:"apple",color:"silver",model:"mac book air pro"}
+        description: {name:"mouse",company:"asus",color:"silver",model:"wt300"}
     }
     ,  {
         id:3,
-        name: "Camera",
-        price:35000,
+        name: "Bag",
+        price:1239,
         image:image3,
-        description: {name:"camera",company:"canon",color:"black",model:"EOS"}
+        description: {name:"bag",company:"wildcraft",color:"black",model:"lpbp 35"}
     },
     {
         id:4,
-        name: "Jacket",
-        price:2500,
+        name: "Bottle",
+        price:739,
         image:image4,
-        description: {name:"jacket",company:"fugazee",type:"denim", size:"large"}
+        description: {name:"bottle",company:"supergenericX",type:"steel", size:"medium"}
     },
     {
         id:5,
-        name: "Led strip lights",
-        price:800,
+        name: "Shoes",
+        price:2419,
         image:image5,
-        description: {name:"led strip lights",company:"ailbton",LightColor:"multicoloured",lightIntensity:"10 watts"}
+        description: {name:"shoes",company:"adidas",model:"icon lite"}
     },
     {
         id:6,
-        name: "Tshirt",
+        name: "Cup",
         price:1800,
         image:image6,
-        description: {name:"tshirt",company:"bonkers",size:"large",colour:"cream"}
+        description: {name:"cup",company:"jaramber",colour:"white"}
     },
 ]

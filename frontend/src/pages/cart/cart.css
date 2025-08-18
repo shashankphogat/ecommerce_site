@@ -1,7 +1,11 @@
 .title_cart{
     text-align:center;
-    font-size:22px;
     margin-top:4%;
+    margin-bottom:2%;
+}
+
+h1{
+    font-size:2.5rem;
 }
 
 .cartProducts{
@@ -14,12 +18,13 @@
 .product_cart{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     height: auto;
     width: 600px;
     gap: 14%;
     margin-bottom:1%;
+    align-items:center;
 }
 
 .image_container{
@@ -39,7 +44,7 @@
 }
 
 .btns button{
-    background-color:black;
+    background-color:#104F55;
     color:white;
     padding:1%;
     border-radius:8px;
@@ -63,14 +68,11 @@
     width:53%;
 }
 
-.plus_button{
+.plus_button, .minus_button{
     color:white;
-    background-color:black;
-}
-
-.minus_button{
-    color:white;
-    background-color:black;
+    background-color:#104F55;
+    margin-top:8%;
+    width:10%;
 }
 
 .item_name{
