@@ -1,20 +1,21 @@
-
 ---
 
 ## 📁 2. **E-Commerce Website**
 
-```markdown
+````markdown
 # E-Commerce Website
 
 A full-stack e-commerce application built using React and Express.js. Supports cart management, real-time product search, and payment gateway.
 
 ## 🚀 Features
+
 - Cart functionality with React Context API
 - Secure payment gateway integration
 - Admin contact form with Nodemailer
 - Real-time product search
 
 ## 🔧 Tech Stack
+
 - React.js
 - Express.js (Node.js)
 - Context API
@@ -22,6 +23,7 @@ A full-stack e-commerce application built using React and Express.js. Supports c
 - React Router
 
 ## 📦 Installation
+
 ```bash
 # Frontend
 cd client
@@ -32,3 +34,5 @@ npm start
 cd server
 npm install
 npm run dev
+```
+````
