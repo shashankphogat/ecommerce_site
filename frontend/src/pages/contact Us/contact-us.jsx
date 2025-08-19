@@ -14,7 +14,7 @@ export const ContactUs = () => {
     <div className='heading'>
         <h1>Contact Us</h1></div>
         <div className='form-container'>
-        <form action="/email" method="POST">
+        <form action="/email" method="POST" className='form'>
             <div className='field-container'>
         <input type="text" placeholder='Your Name' className='contact_input' name="nameOfPerson"></input>
         </div>

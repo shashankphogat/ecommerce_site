@@ -15,10 +15,8 @@ export const CartItem = (props) => {
   return (
    itemInCart()?
     <div className="product_cart">
-        <div className="image_container">
         <img className="image_cart" src={image}></img>
-        </div>
-        <div>
+        <div className='item_details'>
         <p className='item_name'>{name}</p>
         <p className='item_price'>Price : ₹{price}</p>
         <button onClick={()=>addToCart(id)} className='plus_button'>+</button>

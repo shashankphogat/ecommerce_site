@@ -33,8 +33,6 @@ export const Navbar = () => {
         <Link to="/cart" onClick={() => setOpen(false)} className='cart_image_number'><div className='cart_image_container'><ShoppingCart size={32} className='cart_image'></ShoppingCart></div><div
         className='cart_number_container'><div className='cart_number'>{itemCartQuantity}</div></div></Link>
         </div>
-              
-
     </div>
   )
 }
